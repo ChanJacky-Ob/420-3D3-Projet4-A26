@@ -17,7 +17,7 @@ class Config:
     ]
 
     TAILLE_MAX_OCTETS = 2 * 1024 * 1024  # 2 Mo
-
+    #self.dossier_upload = os.path.join(os.path.dirname(__file__), "uploads")
     def __init__(self):
         self.dossier_upload = os.path.join(os.path.dirname(__file__), "uploads")
         os.makedirs(self.dossier_upload, exist_ok=True)

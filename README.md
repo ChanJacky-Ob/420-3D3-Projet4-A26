@@ -3,7 +3,8 @@
 Application web de conversion de fichiers entre différents formats.
 
 ## Prérequis
-
+python -m venv venv
+venv\Scripts\activate
 - Python 3.10+
 - Flask (`pip install flask`)
 
